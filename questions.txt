@@ -13,3 +13,17 @@
 7- Create a variable countdown = 5. Use a while loop to print the number and decrease it until it hits 0.
 
 8- Write a function greet_dev(name, language) that returns: "Hello [name], welcome to [language] programming!"
+
+9- Create a product dictionary with keys: id, name, and price. Print only the price.
+
+10- Add a new key stock to the dictionary from Q9 and update the price to a new value. Print the updated dictionary.
+
+11- You have prices = [100, 200, 300, 400]. Use a List Comprehension to create a new list discounted_prices where each price is 10% off.
+
+12- Write a try-except block. Ask the user for a number. If they type a string (like "abc"), catch the ValueError and print "Invalid input! Please enter a number."
+
+13- Create a list of two dictionaries, where each dictionary represents a user (name and email). Access and print the email of the second user.
+
+14- Create a string alphabet = "abcdefghij". Use slicing to print only the first 5 characters and then only the last 3.
+
+15- Create a list with duplicate values: [1, 2, 2, 3, 4, 4, 5]. Convert it to a Set to remove duplicates and print the result.

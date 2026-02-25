@@ -36,7 +36,7 @@ else:
     print("Good choice!")
 
 
-#6)
+# 6)
 numbers=[1,2,3,4,5]
 for i in numbers:
     print(i*i)
@@ -55,6 +55,70 @@ def greet_dev(name, language):
 
 a=greet_dev("Shreyash", "Python")
 print(a)
+
+
+# 9)
+product={
+    "id": 1,
+    "name" : "Fan",
+    "price": 350 
+}
+a=product["price"]
+print(a)
+
+
+# 10)
+product={
+    "id": 1,
+    "name" : "Fan",
+    "price": 350 
+}
+product["stock"]=50
+product["price"]=450
+print(product)
+
+
+# 11)
+prices = [100, 200, 300, 400]
+discounted_list=[i*0.9 for i in prices]
+print(discounted_list)
+
+
+# 12)
+try:
+    num=int(input("enter number: "))
+    # print(num)
+except ValueError:
+     print("Value error occured") 
+
+
+# 13)
+user_data=[
+    {
+        "name": "Shreyash",
+        "email": "shreyash@gmail.com"
+    },
+    {
+        "name": "Yash",
+        "email": "yash@gamilcom"
+    }
+]
+user2= user_data[1]
+name=user2["name"]
+print(name)
+
+
+# 14)
+alphabet="abcdefghij"
+print(alphabet[:5], end="")
+print(alphabet[-3:])
+
+# 15)
+values=[1, 2, 2, 3, 4, 4, 5]
+new_values=set(values)
+print(new_values)
+
+    
 
 
 
