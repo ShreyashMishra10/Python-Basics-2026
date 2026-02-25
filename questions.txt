@@ -1,0 +1,15 @@
+1- Create variables name, target_level, and target_year. Print: "I am [name], aiming for [level] in Japan by [year]."
+
+2- Store a price as a float, a quantity as an int, and a product name as a string. Print the total cost using an f-string
+
+3- Create a list of 3 Japanese cities. Add a 4th city to the end and print only the second city in the list.
+
+4- Write an if-else statement: If n3_score is 95 or higher, print "Pass", otherwise print "Study Harder".
+
+5- Ask the user for their favorite programming language. If they type "Python", print "Great for DSA!"; otherwise, print "Good choice!"
+
+6- Create a list of numbers [1, 2, 3, 4, 5]. Loop through them and print the square ($n^2$) of each number.
+
+7- Create a variable countdown = 5. Use a while loop to print the number and decrease it until it hits 0.
+
+8- Write a function greet_dev(name, language) that returns: "Hello [name], welcome to [language] programming!"
