@@ -22,7 +22,7 @@
 
 12- Write a try-except block. Ask the user for a number. If they type a string (like "abc"), catch the ValueError and print "Invalid input! Please enter a number."
 
-13- Create a list of two dictionaries, where each dictionary represents a user (name and email). Access and print the email of the second user.
+13- Create a list of two dictionaries, where each dictionary represents a user (name and email). Access and print the name of the second user.
 
 14- Create a string alphabet = "abcdefghij". Use slicing to print only the first 5 characters and then only the last 3.
 
