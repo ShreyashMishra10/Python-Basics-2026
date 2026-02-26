@@ -27,3 +27,39 @@
 14- Create a string alphabet = "abcdefghij". Use slicing to print only the first 5 characters and then only the last 3.
 
 15- Create a list with duplicate values: [1, 2, 2, 3, 4, 4, 5]. Convert it to a Set to remove duplicates and print the result.
+
+16- Create a program that writes the string "Learning Python for Japan 2026!" to a file named goals.txt, and then reads that file to print the content in the terminal.
+
+17- Open your existing goal.txt and add a new line: "And I will master Katakana this week!". Then, print the entire file to prove both lines exist.
+
+18- Create a lambda function that takes two numbers and returns their product (multiplication). Use it to multiply $5 \times 6$.
+
+19- You have a list of prices in Dollars: [10, 20, 30, 40]. Use map() and a lambda to create a new list where every price is converted to Japanese Yen (multiply by 150)
+
+20- You have a list of product prices: [5, 120, 45, 200, 15, 90]. Use filter() and a lambda to create a new list containing only the "Premium" prices (those greater than 100)
+
+21- Create a class named Product. Every product should have a name and a price. Then, create (instantiate) one product: a "Laptop" priced at 150000 Yen.
+
+22- Update your Product class. Add a method called apply_discount(percent) that reduces the price by a given percentage. Then, apply a 10% discount to your laptop and print the new price.
+
+23- Create a new class called Electronic that inherits from your Product class. Add a new attribute called warranty (in months). Create a "Smartphone" object using this new class.
+
+24- Write a program that asks the user for a number and divides 100 by that number. Use a try/except block to catch the error if the user types 0 (because you can't divide by zero) or types letters instead of a number.
+
+25- Use Python’s built-in math module to calculate the Square Root of 144 and the value of $2^8$ (2 to the power of 8). Then, use the random module to generate a random number between 1 and 100.
+
+26- You have a list of numbers: [1, 2, 3, 4, 5]. Create a new list called squares that contains the square of each number, but only if the number is greater than 2
+
+27- Use Python to "talk" to your computer. Import the os module and:
+    Print your current working directory (where your script is running).
+    List all the files and folders inside that directory.
+
+28- Use the json module to turn this Python Dictionary into a JSON String.
+
+29- You received this JSON string from a website: json_data = '{"user": "Shreyash", "status": "Coding", "level": 29}'. Use the json module to turn it back into a Python Dictionary so you can print just the user name.
+
+30- The Mini-E-commerce System
+    Task: 1. Create a class called Order.
+    2. It should take item_name and price.
+    3. Inside the class, create a method to_dict() that returns the data as a dictionary.
+    4. The Challenge: Create an order for a "Mechanical Keyboard" at 8000 Yen. Convert it to a dictionary, then save that dictionary into a file called order.json using the json module.
